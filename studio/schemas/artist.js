@@ -1,6 +1,6 @@
 export default {
-  name: 'author',
-  title: 'Author',
+  name: 'artist',
+  title: 'Artist',
   type: 'document',
   fields: [
     {
@@ -12,10 +12,6 @@ export default {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
-      options: {
-        source: 'name',
-        maxLength: 96,
-      },
     },
     {
       name: 'image',
@@ -24,19 +20,6 @@ export default {
       options: {
         hotspot: true,
       },
-    },
-    {
-      name: 'bio',
-      title: 'Bio',
-      type: 'array',
-      of: [
-        {
-          title: 'Block',
-          type: 'block',
-          styles: [{title: 'Normal', value: 'normal'}],
-          lists: [],
-        },
-      ],
     },
   ],
   preview: {
