@@ -1,8 +1,9 @@
+import { JSXElementConstructor } from 'react'
 import Footer from './Footer'
 import NavBar from './NavBar'
 
 interface children {
-  children: any
+  children: JSX.Element
 }
 
 export default function Layout({ children }: children) {
