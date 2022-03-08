@@ -10,6 +10,7 @@ const Home: NextPage = () => {
         <title>Rebecka Isberg</title>
         <link rel="icon" href="" />
       </head>
+      <h1>Home</h1>
     </div>
   )
 }
