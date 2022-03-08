@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import NavBar from '../components/NavBar'
+import HomePage from '../components/Home'
 
 const Home: NextPage = () => {
   return (
@@ -10,7 +10,7 @@ const Home: NextPage = () => {
         <title>Rebecka Isberg</title>
         <link rel="icon" href="" />
       </head>
-      <h1>Home</h1>
+      <HomePage />{' '}
     </div>
   )
 }
