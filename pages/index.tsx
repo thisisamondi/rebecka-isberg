@@ -1,10 +1,16 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import NavBar from '../components/NavBar'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2"></div>
+    <div>
+      <head>
+        <title>Rebecka Isberg</title>
+        <link rel="icon" href="" />
+      </head>
+    </div>
   )
 }
 
