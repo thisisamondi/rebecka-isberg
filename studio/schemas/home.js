@@ -1,0 +1,17 @@
+export default {
+  name: 'home',
+  title: 'Home',
+  type: 'document',
+  fields: [
+    {
+      name: 'Title',
+      title: 'Title',
+      type: 'string',
+    },
+    {
+      name: 'image',
+      title: 'Image',
+      type: 'image',
+    },
+  ],
+}

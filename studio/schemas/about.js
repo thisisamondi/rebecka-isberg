@@ -5,18 +5,13 @@ export default {
   fields: [
     {
       name: 'title',
-      title: 'title',
+      title: 'Title',
       type: 'string',
-    },
-    {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
     },
     {
       name: 'description',
-      title: 'description',
-      type: 'string',
+      title: 'Description',
+      type: 'blockContent',
     },
     {
       name: 'image',

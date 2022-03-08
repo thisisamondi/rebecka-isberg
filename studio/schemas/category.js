@@ -7,11 +7,8 @@ export default {
       name: 'title',
       title: 'Title',
       type: 'string',
-    },
-    {
-      name: 'description',
-      title: 'Description',
-      type: 'text',
+      description:
+        "Type the category of the work done with an artist. Ex 'tour'.",
     },
   ],
 }

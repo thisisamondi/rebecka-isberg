@@ -10,6 +10,10 @@ import category from './category'
 import artist from './artist'
 import country from './country'
 import about from './about'
+import home from './home'
+import work from './work'
+import contact from './contact'
+import figure from './figure'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -24,6 +28,10 @@ export default createSchema({
     category,
     country,
     about,
+    home,
+    work,
+    contact,
+    figure,
     // When added to this list, object types can be used as
     // { type: 'typenamef' } in other document schemas
     blockContent,

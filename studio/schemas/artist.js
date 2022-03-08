@@ -7,19 +7,12 @@ export default {
       name: 'name',
       title: 'Name',
       type: 'string',
-    },
-    {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
+      description: 'Name of artist or group',
     },
     {
       name: 'image',
       title: 'Image',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
+      type: 'figure',
     },
   ],
   preview: {
